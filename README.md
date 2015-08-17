@@ -1,13 +1,31 @@
 Bson ADT
 ========
+<table>
+<tr>
+  <th>bson-adt-mongo-async</th>
+  <th>bson-adt-mongo</th>
+  <th>bson-adt-casbah</th>
+  <th>bson-adt-mongo2</th>
+  <th>bson-adt-core</th>
+  <th>bson-adt (legacy)</th>
+</tr>
+<tr>
+  <td><a href='https://bintray.com/jeffmay/maven/bson-adt-mongo-async/_latestVersion'><img src='https://api.bintray.com/packages/jeffmay/maven/bson-adt-mongo-async/images/download.svg'></a></td>
+  <td><a href='https://bintray.com/jeffmay/maven/bson-adt-mongo/_latestVersion'><img src='https://api.bintray.com/packages/jeffmay/maven/bson-adt-mongo/images/download.svg'></a></td>
+  <td><a href='https://bintray.com/jeffmay/maven/bson-adt-casbah/_latestVersion'><img src='https://api.bintray.com/packages/jeffmay/maven/bson-adt-casbah/images/download.svg'></a></td>
+  <td><a href='https://bintray.com/jeffmay/maven/bson-adt-mongo2/_latestVersion'><img src='https://api.bintray.com/packages/jeffmay/maven/bson-adt-mongo2/images/download.svg'></a></td>
+  <td><a href='https://bintray.com/jeffmay/maven/bson-adt-core/_latestVersion'><img src='https://api.bintray.com/packages/jeffmay/maven/bson-adt-core/images/download.svg'></a></td>
+  <td><a href='https://bintray.com/jeffmay/maven/bson-adt/_latestVersion'><img src='https://api.bintray.com/packages/jeffmay/maven/bson-adt/images/download.svg'></a></td>
+</tr>
+</table>
 
 A closed generic algebraic data type for Bson serialization and deserialization in Scala
 
 This library works a lot like the [play-json](https://www.playframework.com/documentation/2.3.x/ScalaJson) library,
 but for BSON, the document storage format used by [MongoDB](http://docs.mongodb.org/manual/core/introduction/).
 
-What's an Abstract Data Type?
-=============================
+What's an Algebraic Data Type?
+==============================
 
 In short, an algebraic data type (ADT) is just a way of defining a closed set of values, kind of like an enumeration.
 The only difference between an ADT and an enumeration is that an ADT can assign differently structured data and
